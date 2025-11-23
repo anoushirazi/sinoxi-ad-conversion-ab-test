@@ -10,31 +10,32 @@ This project evaluates whether a new ad delivery strategy improves user conversi
 sinoxi-ad-conversion-ab-test/
 │
 ├── data/
-│ ├── raw/
-│ │ └── ad_campaign_raw.csv
-│ ├── processed/
-│ │ └── ad_campaign_clean.csv
+│   ├── raw/
+│   │   └── ad_campaign_raw.csv
+│   ├── processed/
+│   │   └── ad_campaign_clean.csv
 │
 ├── notebooks/
-│ └── ab_test_analysis.ipynb
+│   └── ab_test_analysis.ipynb
 │
 ├── src/
-│ ├── init.py
-│ ├── ab_test.py
-│ ├── data_preprocessing.py
-│ ├── metrics.py
-│ ├── utils.py
-│ └── visualize.py
+│   ├── __init__.py
+│   ├── ab_test.py
+│   ├── data_preprocessing.py
+│   ├── metrics.py
+│  ├── utils.py
+│   └── visualize.py
 │
 ├── results/
-│ ├── figures/
-│ │ ├── conversion_rates.png
-│ │ └── confidence_intervals.png
-│ └── summary_report.md
+│   ├── figures/
+│   │   ├── conversion_rates.png
+│   │   └── confidence_intervals.png
+│   └── summary_report.md
 │
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
 
 
 ---
